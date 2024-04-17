@@ -1,0 +1,16 @@
+<!ELEMENT library (book+)>
+<!ATTLIST library
+    author CDATA #REQUIRED
+>
+    
+<!ELEMENT book (title, release_date, genre, main_characters)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT release_date (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT main_characters (character+)>
+    
+<!ELEMENT character (name, age, gender)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+

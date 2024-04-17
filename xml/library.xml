@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "library.dtd">
+<library author="Haruki Murakami">
+    <book>
+        <title>Norwegian Wood</title>
+        <release_date>1987</release_date>
+        <genre>Coming-of-age, Romance</genre>
+        <main_characters>
+            <character>
+                <name>Toru Watanabe</name>
+                <age>19</age>
+                <gender>Male</gender>
+            </character>
+            <character>
+                <name>Naoko</name>
+                <age>19</age>
+                <gender>Female</gender>
+            </character>
+            <character>
+                <name>Midorikawa</name>
+                <age>20</age>
+                <gender>Male</gender>
+            </character>
+        </main_characters>
+    </book>
+    <book>
+        <title>Kafka on the Shore</title>
+        <release_date>2002</release_date>
+        <genre>Magical Realism, Surrealism</genre>
+        <main_characters>
+            <character>
+                <name>Kafka Tamura</name>
+                <age>15</age>
+                <gender>Male</gender>
+            </character>
+            <character>
+                <name>Nakata</name>
+                <age>60+</age>
+                <gender>Male</gender>
+            </character>
+            <character>
+                <name>Oshima</name>
+                <age>24</age>
+                <gender>Male</gender>
+            </character>
+        </main_characters>
+    </book>
+    <book>
+        <title>1Q84</title>
+        <release_date>2009</release_date>
+        <genre>Dystopian, Fantasy</genre>
+        <main_characters>
+            <character>
+                <name>Aomame</name>
+                <age>30</age>
+                <gender>Female</gender>
+            </character>
+            <character>
+                <name>Tengo Kawana</name>
+                <age>30</age>
+                <gender>Male</gender>
+            </character>
+            <character>
+                <name>Ushikawa</name>
+                <age>40</age>
+                <gender>Male</gender>
+            </character>
+        </main_characters>
+    </book>
+    <book>
+        <title>The Wind-Up Bird Chronicle</title>
+        <release_date>1994</release_date>
+        <genre>Mystery, Magical Realism</genre>
+        <main_characters>
+            <character>
+                <name>Toru Okada</name>
+                <age>30</age>
+                <gender>Male</gender>
+            </character>
+            <character>
+                <name>Kumiko</name>
+                <age>30</age>
+                <gender>Female</gender>
+            </character>
+            <character>
+                <name>Nutmeg</name>
+                <age>40</age>
+                <gender>Female</gender>
+            </character>
+        </main_characters>
+    </book>
+    <book>
+        <title>Hard-Boiled Wonderland and the End of the World</title>
+        <release_date>1985</release_date>
+        <genre>Science Fiction, Surrealism</genre>
+        <main_characters>
+            <character>
+                <name>The Calcutec</name>
+                <age>30</age>
+                <gender>Male</gender>
+            </character>
+            <character>
+                <name>The Librarian</name>
+                <age>Unknown</age>
+                <gender>Male</gender>
+            </character>
+            <character>
+                <name>Junior</name>
+                <age>Unknown</age>
+                <gender>Male</gender>
+            </character>
+        </main_characters>
+    </book>
+    <book>
+        <title>Colorless Tsukuru Tazaki and His Years of Pilgrimage</title>
+        <release_date>2013</release_date>
+        <genre>Coming-of-age, Mystery</genre>
+        <main_characters>
+            <character>
+                <name>Tsukuru Tazaki</name>
+                <age>36</age>
+                <gender>Male</gender>
+            </character>
+            <character>
+                <name>Sara Kimoto</name>
+                <age>36</age>
+                <gender>Female</gender>
+            </character>
+            <character>
+                <name>Ao</name>
+                <age>36</age>
+                <gender>Female</gender>
+            </character>
+        </main_characters>
+    </book>
+</library>
