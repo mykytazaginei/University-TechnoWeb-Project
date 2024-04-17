@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+  background: rgb(0, 0, 0);
+  color: burlywood;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 35px;
+}
+
+.book {
+  background-color: #313131;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.left-section li:before {
+  content: "-";
+  color: #666;
+  display: inline-block;
+  width: 1em;
+  margin-left: 1em;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+.image {
+  flex: 0;
+  text-align: right;
+}
+
+.image img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  background-color: #dbdbdb;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: #ffffff;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation {
+  list-style-type: none;
+  margin: 50px;
+  padding: 0;
+  text-align: center;
+}
+
+.navigation ul {
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  background-color: #939393;
+  border-radius: 25px;
+}
+
+.navigation li a:hover {
+  background-color: #333;
+  color: #fff;
+  border-radius: 25px;
+}
+
+.actual a {
+  background-color: #333 !important;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #313131;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  font-size: 17, 5px;
+}
+
+.container h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.switch {
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+  background-color: #939393;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.description {
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.description_img img {
+  max-width: 400px;
+  margin: 20px 210px;
+  border-radius: 15px;
+}

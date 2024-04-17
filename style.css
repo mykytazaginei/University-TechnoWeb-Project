@@ -1,0 +1,155 @@
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(225, 225, 225);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+  font-size: 30px;
+}
+
+.book {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Добавлено */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.left-section li:before {
+  content: "-";
+  color: #666;
+  display: inline-block;
+  width: 1em;
+  margin-left: 1em;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+.image {
+  flex: 0;
+  text-align: right;
+}
+
+.image img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  background-color: #545454;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: #1e1e1e;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation {
+  list-style-type: none;
+  margin: 50px;
+  padding: 0;
+  text-align: center;
+}
+
+.navigation ul {
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  background-color: #939393;
+  border-radius: 25px;
+}
+
+.navigation li a:hover {
+  background-color: #333;
+  color: #fff;
+  border-radius: 25px;
+}
+
+.actual a {
+  background-color: #333 !important;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.container h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+.switch {
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+  background-color: #545454;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.description {
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.description_img img{
+  max-width: 400px;
+  margin: 20px 210px;
+  border-radius: 15px;
+}

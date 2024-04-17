@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="style.css" rel="stylesheet" id="stylesheet"/>
+    <link href="alternate_style.css" rel="alternate stylesheet" id="alternate_stylesheet"/>
+    <title>Haruki Murakami Library</title>
+    <script src="js/script.js"></script>
+</head>
+<body onload="loadStyleFromLocalStorage()">
+    <button onclick="switchToAccessibilityMode()" class="switch">Switch Theme</button>
+    <h1>Haruki Murakami Library</h1>
+    <ul class="navigation">
+        <li class="actual"><a href="index.html">Home</a></li>
+        <li><a href="norwegian_wood.html">Norwegian Wood</a></li>
+        <li><a href="kafka.html">Kafka on the Shore</a></li>
+        <li><a href="1Q84.html">1Q84</a></li>
+        <li><a href="wind-Up.html">The Wind-Up Bird Chronicle</a></li>
+        <li><a href="hard-Boiled.html">Hard-Boiled Wonderland</a></li>
+        <li><a href="colorless.html">Colorless Tsukuru Tazaki</a></li>
+    </ul>
+    <div class="book">
+        <div class="left-section">
+            <h2>Norwegian Wood</h2>
+            <p><strong>Release Date:</strong> 1987</p>
+            <p><strong>Genre:</strong> Coming-of-age, Romance</p>
+            <p><strong>Main Characters:</strong>
+                <ul>
+                    <li>Toru Watanabe</li>
+                    <li>Naoko</li>
+                    <li>Midorikawa</li>
+                </ul>
+            </p>
+            <div class="button-container">
+                <button onclick="showQuestion('norwegian_wood')">Question</button>
+            </div>
+        </div>
+        <div class="image" style="margin-left: 125px;">
+            <img src="image/norwegian_wood.jpg" alt="Norwegian Wood Cover">
+        </div>
+    </div>
+   
+    <div class="book">
+        <div class="left-section">
+            <h2>Kafka on the Shore</h2>
+            <p><strong>Release Date:</strong> 2002</p>
+            <p><strong>Genre:</strong> Magical Realism, Surrealism</p>
+            <p><strong>Main Characters:</strong>
+                <ul>
+                    <li>Kafka Tamura</li>
+                    <li>Nakata</li>
+                    <li>Oshima</li>
+                </ul>
+            </p>
+            <div class="button-container">
+                <button onclick="window.location.href='kafka.html'">More details</button>
+            </div>
+        </div>
+        <div class="image" style="margin-left: 105px;">
+            <img src="image/kafka.jpg" alt="Norwegian Wood Cover">
+        </div>
+    </div>
+    <div class="book">
+        <div class="left-section">
+            <h2>1Q84</h2>
+            <p><strong>Release Date:</strong> 2009</p>
+            <p><strong>Genre:</strong> Dystopian, Fantasy</p>
+            <p><strong>Main Characters:</strong>
+                <ul>
+                    <li>Aomame</li>
+                    <li>Tengo Kawana</li>
+                    <li>Ushikawa</li>
+                </ul>
+            </p>
+            <div class="button-container">
+                <button onclick="window.location.href='1Q84.html'">More details</button>
+            </div>
+        </div>
+        <div class="image" style="margin-left: 150px;">
+            <img src="image/1Q84.png" alt="Norwegian Wood Cover">
+        </div>
+    </div>
+    <div class="book">
+        <div class="left-section">
+            <h2>The Wind-Up Bird Chronicle</h2>
+            <p><strong>Release Date:</strong> 1994</p>
+            <p><strong>Genre:</strong> Mystery, Magical Realism</p>
+            <p><strong>Main Characters:</strong>
+                <ul>
+                    <li>Toru Okada</li>
+                    <li>Kumiko</li>
+                    <li>Nutmeg</li>
+                </ul>
+            </p>
+            <div class="button-container">
+                <button onclick="window.location.href='wind_Up.html'">More details</button>
+            </div>
+        </div>
+        <div class="image" style="margin-left: 45px;">
+            <img src="image/The_wind.png" alt="Norwegian Wood Cover">
+        </div>
+    </div>
+    <div class="book">
+        <div class="left-section">
+            <h2>Hard-Boiled Wonderland</h2>
+            <p><strong>Release Date:</strong> 1985</p>
+            <p><strong>Genre:</strong> Science Fiction, Surrealism</p>
+            <p><strong>Main Characters:</strong>
+                <ul>
+                    <li>The Calcutec</li>
+                    <li>The Librarian</li>
+                    <li>Junior</li>
+                </ul>
+            </p>
+            <div class="button-container">
+                <button onclick="window.location.href='hard-boiled.html'">More details</button>
+            </div>
+        </div>
+        <div class="image" style="margin-left: 82px;">
+            <img src="image/Hard-boiled.jpg" alt="Norwegian Wood Cover">
+        </div>
+    </div>
+    <div class="book">
+        <div class="left-section">
+            <h2>Colorless Tsukuru Tazaki</h2>
+            <p><strong>Release Date:</strong> 2013</p>
+            <p><strong>Genre:</strong> Coming-of-age, Mystery</p>
+            <p><strong>Main Characters:</strong>
+                <ul>
+                    <li>Tsukuru Tazaki</li>
+                    <li>Sara Kimoto</li>
+                    <li>Ao</li>
+                </ul>
+            </p>
+            <div class="button-container">
+                <button onclick="window.location.href='colorless.html'">More details</button>
+            </div>
+        </div>
+        <div class="image" style="margin-left: 75px;">
+            <img src="image/colorless-tsukuru.jpg" alt="Norwegian Wood Cover">
+        </div>
+    </div>
+</body>
+</html>
