@@ -12,7 +12,7 @@ h1 {
   color: #333;
   font-size: 30px;
 }
-
+/* The h1 element is centered and has a margin-top of 20px */
 .book {
   background-color: #ffffff;
   border-radius: 20px;
@@ -122,7 +122,6 @@ li:last-child {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  
 }
 
 .container h2 {
@@ -149,8 +148,69 @@ li:last-child {
   text-align: justify;
 }
 
-.description_img img{
+.description_img img {
   max-width: 400px;
   margin: 20px 210px;
   border-radius: 15px;
+}
+
+.datetime {
+  position: fixed;
+  top: 10px;
+  right: 10px; /* Aligns the date and time to the right */
+  color: #333;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+#randomLinkContainer {
+  text-align: center; /* Centre le contenu du div */
+}
+
+#randomLink, #search {
+  display: inline-block; /* Permet au lien de recevoir des marges et du padding */
+  padding: 10px 20px;
+  background-color: #939393; /* Couleur de fond du bouton */
+  color: white; /* Couleur du texte */
+  text-decoration: none; /* Supprime le soulignement du lien */
+  border-radius: 20px; /* Bords arrondis */
+  font-size: 16px; /* Taille du texte */
+  transition: background-color 0.3s; /* Transition douce pour le survol */
+}
+
+#randomLink:hover {
+  background-color: #333; /* Changement de couleur lors du survol */
+}
+
+#imageContainer {
+  text-align: center; /* Centre l'image horizontalement */
+  margin-top: 20px; /* Ajoute un peu d'espace en haut */
+  margin-bottom: 20px; /* Ajoute un peu d'espace en bas */
+}
+
+#imageContainer img {
+  width: 200px; /* Ajustez cette valeur pour changer la taille de l'image */
+  height: auto; /* Maintient le ratio aspect de l'image */
+  display: block; /* Nécessaire pour que margin auto fonctionne pour le centrage horizontal */
+  margin: 0 auto; /* Centre l'image horizontalement dans le div */
+  border-radius: 15px; /* Bords arrondis */
+}
+
+.emailButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #545454;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.emailButton:hover {
+  background-color: #333;
 }

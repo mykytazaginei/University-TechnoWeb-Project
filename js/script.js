@@ -32,3 +32,41 @@ function loadStyleFromLocalStorage() {
     accessibility_style.rel = "stylesheet";
   }
 }
+
+function updateDateTime() {
+  var now = new Date();
+  var datetime = now.toLocaleString(); // Gets local date and time as a string
+  document.getElementById("datetime").innerHTML = datetime;
+  setTimeout(updateDateTime, 1000); // Update the time every second
+}
+
+document.addEventListener("DOMContentLoaded", updateDateTime); // Start the timer on page load
+
+document.addEventListener("DOMContentLoaded", function () {
+  var links = [
+    "content/collection/norwegian_wood.html",
+    "content/collection/kafka.html",
+    "content/collection/1Q84.html",
+    "content/collection/wind-Up.html",
+    "content/collection/hard-Boiled.html",
+    "content/collection/colorless.html",
+  ];
+
+  var randomLink = document.getElementById("randomLink");
+  randomLink.addEventListener("click", function (e) {
+    e.preventDefault(); // Empêche la navigation par défaut
+    var randomUrl = links[Math.floor(Math.random() * links.length)]; // Sélectionne une URL au hasard
+    window.location.href = randomUrl; // Redirige vers l'URL choisie
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const images = ["image/Murakami Portrait.jpeg", "image/Murakami Portrait 2.jpeg"];
+  let index = 0; // Index de l'image actuelle
+
+  const imageElement = document.getElementById("changeableImage");
+  imageElement.addEventListener("click", function () {
+    index = (index + 1) % images.length; // Incrémente l'index, revient à 0 si fin de liste
+    imageElement.src = images[index]; // Change l'image
+  });
+});

@@ -9,7 +9,17 @@
 </head>
 <body onload="loadStyleFromLocalStorage()">
     <button onclick="switchToAccessibilityMode()" class="switch">Switch Theme</button>
+    
+    <div id="datetime" class="datetime"></div>
     <h1>Haruki Murakami Library</h1>
+    <div id="imageContainer">
+        <img src="image/Murakami Portrait.jpeg" alt="Portrait de Murakami"
+         id="changeableImage" alt="Cliquez-moi" style="cursor: pointer;">
+    </div>
+    <div id="randomLinkContainer">
+        <a href="#" id="randomLink">Discover a book at random!</a> 
+        <a href="content/form/search.html" id="search">Selection of books</a> 
+    </div>
     <ul class="navigation">
         <li class="actual"><a href="index.html">Home</a></li>
         <li><a href="content/collection/norwegian_wood.html">Norwegian Wood</a></li>
@@ -139,6 +149,9 @@
         <div class="image" style="margin-left: 75px;">
             <img src="image/colorless-tsukuru.jpg" alt="Norwegian Wood Cover">
         </div>
+    </div>
+    <div id="emailLinkContainer" style="text-align: center; margin-top: 20px;">
+        <a href="mailto:exemple@domaine.com?subject=Sujet%20de%20l'email&body=Bonjour," class="emailButton">Send Email</a>
     </div>
 </body>
 </html>
