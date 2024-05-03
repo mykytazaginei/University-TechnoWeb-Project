@@ -1,24 +1,19 @@
 <!-- Main Contributor: Mykyta ZAGINEI -->
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <link href="styles/style.css" rel="stylesheet" id="stylesheet"/>
-    <link href="styles/alternate_style.css" rel="alternate stylesheet" id="alternate_stylesheet"/>
+    <link href="styles/style.css" rel="stylesheet" id="stylesheet" type="text/css"/>
+    <link href="styles/alternate_style.css" rel="alternate stylesheet" id="alternate_stylesheet" type="text/css"/>
     <title>Haruki Murakami Library</title>
-    <script src="js/script.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
 </head>
 <body onload="loadStyleFromLocalStorage()">
     <button onclick="switchToAccessibilityMode()" class="switch">Switch Theme</button>
     <div id="datetime" class="datetime"></div>
     <h1>Haruki Murakami Library</h1>
-    <div id="imageContainer">
-        <img src="image/Murakami Portrait.jpeg" alt="Portrait de Murakami"
-         id="changeableImage" alt="Cliquez-moi" style="cursor: pointer;">
-    </div>
     <div id="randomLinkContainer">
         <a href="#" id="randomLink">Discover a book at random!</a> 
         <a href="content/form/search.html" id="search">Selection of books</a> 
-        <a href="index.xhtml" id="search">Old site version(xhtml)</a>
     </div>
     <ul class="navigation">
         <li class="actual"><a href="index.html">Home</a></li>
@@ -46,7 +41,7 @@
             </div>
         </div>
         <div class="image" style="margin-left: 125px;">
-            <img src="image/norwegian_wood.jpg" alt="Norwegian Wood Cover">
+            <img src="image/norwegian_wood.jpg" alt="Norwegian Wood Cover"/>
         </div>
     </div>
    
@@ -67,7 +62,7 @@
             </div>
         </div>
         <div class="image" style="margin-left: 105px;">
-            <img src="image/kafka.jpg" alt="Norwegian Wood Cover">
+            <img src="image/kafka.jpg" alt="Kafka on the Shore Cover"/>
         </div>
     </div>
     <div class="book">
@@ -87,7 +82,7 @@
             </div>
         </div>
         <div class="image" style="margin-left: 150px;">
-            <img src="image/1Q84.png" alt="Norwegian Wood Cover">
+            <img src="image/1Q84.png" alt="1Q84 Cover"/>
         </div>
     </div>
     <div class="book">
@@ -107,7 +102,7 @@
             </div>
         </div>
         <div class="image" style="margin-left: 45px;">
-            <img src="image/The_wind.png" alt="Norwegian Wood Cover">
+            <img src="image/The_wind.png" alt="The Wind-Up Bird Chronicle Cover"/>
         </div>
     </div>
     <div class="book">
@@ -127,7 +122,7 @@
             </div>
         </div>
         <div class="image" style="margin-left: 82px;">
-            <img src="image/Hard-boiled.jpg" alt="Norwegian Wood Cover">
+            <img src="image/Hard-boiled.jpg" alt="Hard-Boiled Wonderland Cover"/>
         </div>
     </div>
     <div class="book">
@@ -147,11 +142,11 @@
             </div>
         </div>
         <div class="image" style="margin-left: 75px;">
-            <img src="image/colorless-tsukuru.jpg" alt="Norwegian Wood Cover">
+            <img src="image/colorless-tsukuru.jpg" alt="Colorless Tsukuru Tazaki Cover"/>
         </div>
     </div>
     <div id="emailLinkContainer" style="text-align: center; margin-top: 20px;">
-        <a href="mailto:exemple@domaine.com?subject=Sujet%20de%20l'email&body=Bonjour," class="emailButton">Send Email</a>
+        <a href="mailto:exemple@domaine.com?subject=Sujet%20de%20l'email&amp;body=Bonjour," class="emailButton">Send Email</a>
     </div>
 </body>
 </html>
